@@ -1,0 +1,80 @@
+/* Jumbotron */
+
+#jumbotron {
+    padding-top: 15vh;
+    background: black url('../images/cover.jpg') no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 3em;
+}
+
+#jumbotron blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10%;
+}
+
+
+/* MENU */
+
+
+/* DROPDOWN */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #111;
+}
+
+nav li.dropdown {
+    display: inline-block;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+nav .dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+/* END DROPDOWN */
+
+/* END MENU*/
