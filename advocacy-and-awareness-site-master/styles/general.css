@@ -1,0 +1,81 @@
+/*************** This file will contain all custom styles for site ***************************/
+
+
+/*************** Common to all files ***************************/
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background: #333;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding: 3vh 0;
+    color: white;
+}
+
+
+/*************** index.html ***************************/
+
+
+/* Banner */
+
+#banner {
+    padding-top: 15vh;
+    background: black url('images/cover.jpg') no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 3em;
+}
+
+#banner blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10%;
+}
+
+/*************marijuana.html**************/
+
+/*Float image*/
+
+.background-floated {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.risks-floated {
+	float: right;
+	width: 20%;
+	text-align: center;
+}
+
+/***Banner***/
+
+.marijuana-background{
+	padding-top: 15vh;
+    background: black url(images/marijuana.png) no-repeat fixed center;
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+    color: white;
+    font-size: 5em;
+	text-align: center;
+}
+
+/**************alcohol.html******************/
+
+/**Banner**/
+
+.alcohol-background{
+	padding-top: 15vh;
+    background: black url(images/alcohol-cover.jpeg) no-repeat fixed center;
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+    color: black;
+    font-size: 5em;
+	text-align: center;
+}

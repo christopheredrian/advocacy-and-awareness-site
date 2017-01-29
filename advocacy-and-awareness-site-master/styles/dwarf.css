@@ -1,0 +1,332 @@
+    /********************************************/
+    /************** NORMALIZE *******************/
+    /********************************************/
+    
+    body {
+        margin: 0;
+    }
+    /********************************************/
+    /******************* Grid *******************/
+    /********************************************/
+    
+    .container {
+        margin: 0 auto;
+        width: 80%;
+        max-width: 1200px;
+        margin-top: 6%;
+    }
+    /* Prevent columns outside */
+    
+    .row:before,
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Columns */
+    /* Column Gutters */
+    /*-- setting border box on all elements inside the grid --*/
+    
+    .container * {
+        box-sizing: border-box;
+    }
+    
+    [class*='col-'] {
+        float: left;
+        min-height: 1px;
+        width: 16.66%;
+        padding: 10px;
+    }
+    
+    .col-1 {
+        width: 16.66%;
+    }
+    
+    .col-2 {
+        width: 33.33%;
+    }
+    
+    .col-3 {
+        width: 50%;
+    }
+    
+    .col-4 {
+        width: 66.66%;
+    }
+    
+    .col-5 {
+        width: 83.33%;
+    }
+    
+    .col-6 {
+        width: 100%;
+    }
+    
+    .center-block {
+        margin: 0 auto;
+    }
+    /********************************************/
+    /************* Typography *******************/
+    /********************************************/
+    
+    .page-header {
+        font-size: 2em;
+        border-bottom: solid 1px black;
+        padding-bottom: 0.5em;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .text-left {
+        text-align: left;
+    }
+    
+    .text-right {
+        text-align: right;
+    }
+    
+    body {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1 {
+        font-size: 2.2em;
+    }
+    
+    h2 {
+        font-size: 1.8em;
+    }
+    
+    h3 {
+        font-size: 1.6em;
+    }
+    
+    h4 {
+        font-size: 1.4em;
+    }
+    
+    h5 {
+        font-size: 1.3em;
+    }
+    
+    h6 {
+        font-size: 1.1em;
+    }
+    
+    a {
+        transition: color .4s;
+        color: #265C83;
+    }
+    
+    a:link,
+    a:visited {
+        color: #265C83;
+    }
+    
+    a:hover {
+        color: #7FDBFF;
+    }
+    
+    a:active {
+        transition: color .3s;
+        color: #007BE6;
+    }
+    /********************************************/
+    /***************** IMAGES *******************/
+    /********************************************/
+    
+    .img-circle {
+        border-radius: 50%;
+    }
+    
+    .img-rounded {
+        border-radius: 3%;
+    }
+    
+    .img-responsive {
+        width: 100%;
+        height: auto;
+    }
+    /********************************************/
+    /************* NAVIGATION *******************/
+    /********************************************/
+    
+    nav ul.nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    .nav li {
+        font-size: 1.1em;
+        float: left;
+    }
+    
+    .nav.nav-right li {
+        float: right;
+    }
+    
+    .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        background-color: #111;
+    }
+    
+    nav ul.nav-fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    nav .brand {
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        margin-left: 8%;
+        position: absolute;
+        left: 0;
+    }
+    /********************************************/
+    /************* TABLES ***********************/
+    /********************************************/
+    
+    * table {
+        overflow-x: auto;
+    }
+    
+    table {
+        text-align: left;
+        width: 100%;
+    }
+    
+    td,
+    th {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    table th {
+        font-size: 1.7em;
+    }
+    
+    table tr {
+        margin: 0 10%;
+    }
+    /* ICONS */
+    
+    .icon {
+        display: inline;
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        margin-right: 2%;
+    }
+    
+    .icon:before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        margin-left: -20px;
+    }
+    
+    .icon-calendar:before {
+        background: url('../images/icons/calendar.png');
+        background-size: cover;
+    }
+    
+    .icon-work:before {
+        background: url('../images/icons/work.png');
+        background-size: cover;
+    }
+    
+    .icon-home:before {
+        background: url('../images/icons/home.png');
+        background-size: cover;
+    }
+    
+    .icon-mail:before {
+        background: url('../images/icons/mail.png');
+        background-size: cover;
+    }
+    
+    .icon-contact:before {
+        background: url('../images/icons/contact.png');
+        height: 27px;
+        background-size: cover;
+    }
+    
+    .icon-education:before {
+        background: url('../images/icons/education.png');
+        background-size: cover;
+    }
+    
+    .icon-skills:before {
+        background: url('../images/icons/skills.png');
+        background-size: cover;
+    }
+    /* Medium size icons */
+    
+    .icon-md {
+        margin-right: 6%;
+        margin-left: 10px;
+    }
+    
+    .icon-md:before {
+        height: 50px;
+        width: 50px;
+    }
+    /* Media Queries */
+    
+    @media only screen and (max-width: 768px) {
+        * {
+            font-size: 0.97em;
+        }
+        .img-responsive {
+            width: 40%;
+        }
+        .container {
+            width: 90%;
+        }
+        [class*='col-'] {
+            width: 100%;
+        }
+        .icon,
+        .icon-md {
+            display: inline;
+            color: white;
+            text-decoration: none;
+            padding-left: 20px;
+            margin-right: 2%;
+        }
+        .icon:before,
+        .icon-md:before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            margin-left: -20px;
+            margin-right: 7%;
+        }
+        .icon-md:before {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        .hide-small {
+            display: none;
+        }
+    }
