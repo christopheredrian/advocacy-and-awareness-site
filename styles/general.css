@@ -35,3 +35,47 @@ footer {
     background: rgba(255, 255, 255, 0.6);
     padding: 10%;
 }
+
+/*************marijuana.html**************/
+
+/*Float image*/
+
+.background-floated {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.risks-floated {
+	float: right;
+	width: 20%;
+	text-align: center;
+}
+
+/***Banner***/
+
+.marijuana-background{
+	padding-top: 15vh;
+    background: black url(images/marijuana.png) no-repeat fixed center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    color: white;
+    font-size: 5em;
+	text-align: center;
+}
+
+/**************alcohol.html******************/
+
+/**Banner**/
+
+.alcohol-background{
+	padding-top: 15vh;
+    background: black url(images/alcohol-cover.jpeg) no-repeat fixed center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    color: black;
+    font-size: 5em;
+	text-align: center;
+}
