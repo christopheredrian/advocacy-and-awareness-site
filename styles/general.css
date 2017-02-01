@@ -1,6 +1,9 @@
 /*************** This file will contain all custom styles for site ***************************/
 
-
+/* Commons */
+cite a{
+    text-decoration: none;
+}
 /*************** Common to all files ***************************/
 
 
@@ -31,7 +34,11 @@ footer {
     color: black;
     font-size: 3em;
 }
-
+#banner cite a{
+    color: black;
+    /*text-decoration: none;*/
+    font-size: 0.7em;
+}
 #banner blockquote {
     background: rgba(255, 255, 255, 0.6);
     border: none;
