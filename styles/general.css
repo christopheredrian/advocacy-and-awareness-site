@@ -22,6 +22,7 @@ footer {
 /* Banner */
 
 #banner {
+    border: none;
     padding-top: 15vh;
     background: black url('images/cover.jpg') no-repeat fixed center;
     background-size: cover;
@@ -33,7 +34,7 @@ footer {
 
 #banner blockquote {
     background: rgba(255, 255, 255, 0.6);
-    padding: 10%;
+    border: none;
 }
 
 /*************marijuana.html**************/
