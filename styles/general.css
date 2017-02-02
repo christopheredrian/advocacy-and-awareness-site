@@ -1,9 +1,13 @@
 /*************** This file will contain all custom styles for site ***************************/
 
+
 /* Commons */
-cite a{
+
+cite a {
     text-decoration: none;
 }
+
+
 /*************** Common to all files ***************************/
 
 
@@ -17,6 +21,27 @@ footer {
     padding: 3vh 0;
     color: white;
 }
+/* Typography */
+*{
+    line-height: 1.5em;
+}
+h1,h2,h3,h4,h5,h6{
+    border-bottom: 0.7px solid lightgray;
+}
+
+/* Common to banners */
+/*div[class*="-banner"],*/
+
+div[class*="-background"] {
+    background-size: cover;
+    border: none;
+    padding-top: 15vh;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 5em;
+    text-align: center;
+}
 
 
 /*************** index.html ***************************/
@@ -24,29 +49,33 @@ footer {
 
 /* Banner */
 
-#banner {
-    border: none;
-    padding-top: 15vh;
+.home-banner {
     background: black url('images/cover.jpg') no-repeat fixed center;
     background-size: cover;
+    /* TODO: Remove later */
+    border: none;
+    padding-top: 15vh;
     height: 100vh;
     width: 100vw;
     color: black;
     font-size: 3em;
 }
-#banner cite a{
+
+.home-banner cite a {
     color: black;
     /*text-decoration: none;*/
     font-size: 0.7em;
 }
-#banner blockquote {
+
+.home-banner blockquote {
     background: rgba(255, 255, 255, 0.6);
     border: none;
 }
 
+
 /*********** drugs.html ******************/
 
-.tobacco-banner{
+.tobacco-banner {
     border: none;
     padding-top: 15vh;
     background: black url('images/tobacco.jpg') no-repeat fixed center;
@@ -55,13 +84,15 @@ footer {
     width: 50vw;
     color: black;
     font-size: 3em;
-	position: static;
+    position: static;
 }
-.tobacco-banner blockquote{
-	 background: rgba(255, 255, 255, 0.6);
+
+.tobacco-banner blockquote {
+    background: rgba(255, 255, 255, 0.6);
     border: none;
 }
-.alcohol-banner{
+
+.alcohol-banner {
     border: none;
     padding-top: 15vh;
     background: black url('images/alcohol-cover.jpeg') no-repeat fixed center;
@@ -70,14 +101,15 @@ footer {
     width: 50vw;
     color: black;
     font-size: 3em;
-	position: static;
+    position: static;
 }
 
-.alcohol-banner blockquote{
-	 background: rgba(255, 255, 255, 0.6);
+.alcohol-banner blockquote {
+    background: rgba(255, 255, 255, 0.6);
     border: none;
 }
-.heroin-banner{
+
+.heroin-banner {
     border: none;
     padding-top: 15vh;
     background: black url('images/heroin-powder.jpg') no-repeat fixed center;
@@ -86,14 +118,15 @@ footer {
     width: 50vw;
     color: black;
     font-size: 3em;
-	position: static;
+    position: static;
 }
 
-.heroin-banner blockquote{
-	 background: rgba(255, 255, 255, 0.6);
+.heroin-banner blockquote {
+    background: rgba(255, 255, 255, 0.6);
     border: none;
 }
-.marijuana-banner{
+
+.marijuana-banner {
     border: none;
     padding-top: 15vh;
     background: black url('images/marijuana.png') no-repeat fixed center;
@@ -102,14 +135,15 @@ footer {
     width: 50vw;
     color: black;
     font-size: 3em;
-	position: static
+    position: static
 }
 
-.marijuana-banner blockquote{
-	 background: rgba(255, 255, 255, 0.6);
+.marijuana-banner blockquote {
+    background: rgba(255, 255, 255, 0.6);
     border: none;
 }
-.methamphetamine-banner{
+
+.methamphetamine-banner {
     border: none;
     padding-top: 10vh;
     background: black url('images/meth.jpg') no-repeat fixed center;
@@ -118,144 +152,122 @@ footer {
     width: 100vw;
     color: black;
     font-size: 3em;
-	position: static:
+    position: static:
 }
 
-.methamphetamine-banner blockquote{
-	 background: rgba(255, 255, 255, 0.6);
+.methamphetamine-banner blockquote {
+    background: rgba(255, 255, 255, 0.6);
     border: none;
 }
 
 
 /*************marijuana.html**************/
 
+
 /*Float image*/
 
 .background-floated {
-	float: left;
-	width: 20%;
-	text-align: center;
+    float: left;
+    width: 20%;
+    text-align: center;
 }
 
 .risks-floated {
-	float: right;
-	width: 20%;
-	text-align: center;
+    float: right;
+    width: 20%;
+    text-align: center;
 }
+
 
 /***Banner***/
 
-.marijuana-background{
-	padding-top: 15vh;
+.marijuana-background {
     background: black url(images/marijuana.png) no-repeat fixed center;
-    background-size: cover;
     height: 90vh;
-    width: 100vw;
-    color: black;
     font-size: 5em;
-	text-align: center;
+    text-align: center;
 }
 
-.marijuana-background blockquote{
-	background: rgba(255, 255, 255, 0.6);
+.marijuana-background blockquote {
+    background: rgba(255, 255, 255, 0.6);
     border: none;
 }
+
 
 /**************alcohol.html******************/
 
+
 /**Banner**/
 
-.alcohol-background{
-	padding-top: 15vh;
+.alcohol-background {
     background: black url(images/alcohol-cover.jpeg) no-repeat fixed center;
-    background-size: cover;
-    height: 90vh;
-    width: 100vw;
-    color: black;
-    font-size: 5em;
-	text-align: center;
 }
 
-.alcohol-background blockquote{
-	background: rgba(255, 255, 255, 0.6);
+.alcohol-background blockquote {
+    background: rgba(255, 255, 255, 0.6);
     border: none;
 }
 
+
 /**************methamphetamine.html******************/
+
 
 /**Banner**/
 
-.methamphetamine-background{
-	padding-top: 15vh;
+.methamphetamine-background {
     background: black url(images/meth.jpg) no-repeat fixed center;
-	background-size: cover;
-    height: 90vh;
-    width: 100vw;
-    color: black;
-    font-size: 5em;
-	text-align: center;
 }
 
 /************** tobacco.html *****************/
 
-.tobacco-background{
-	padding-top: 15vh;
+.tobacco-background {
     background: black url(images/tobacco.jpg) no-repeat fixed center;
-    background-size: cover;
-    height: 90vh;
-    width: 100vw;
-    color: black;
-    font-size: 5em;
-	text-align: center
 }
 
-.tobacco-background blockquote{
-	background: rgba(255, 255, 255, 0.6);
+.tobacco-background blockquote {
+    background: rgba(255, 255, 255, 0.6);
     border: none;
 }
 
-.background{
-	text-align: justify;
+.background {
+    text-align: justify;
 }
 
-.risks{
-	float: right;
-	width: 20%;
-	text-align: justify;
+.risks {
+    float: right;
+    width: 20%;
+    text-align: justify;
 }
 
-.reasons{
-	float: right;
-	width: 20%;
-	text-align: center;
+.reasons {
+    float: right;
+    width: 20%;
+    text-align: center;
 }
-.trivias{
-	padding-top: 10vh;
-	padding-bottom: 10vh;
-	padding-left: 5vh;
-	padding-right: 5vh;
+
+.trivias {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
     background: black url(images/trivias.jpeg) no-repeat fixed center;
     background-size: cover;
     color: black;
-	font-size: 1.5em;
-	text-align: justify;
+    font-size: 1.5em;
+    text-align: justify;
 }
-.trivias blockquote{
-	background: rgba(255, 255, 255, 0.6);
+
+.trivias blockquote {
+    background: rgba(255, 255, 255, 0.6);
     border: none;
 }
 
+
 /**************heroin.html******************/
+
 
 /**Banner**/
 
-.heroin-background{
-	padding-top: 15vh;
+.heroin-background {
     background: black url(images/heroin-powder.jpg) no-repeat fixed center;
-    background-size: cover;
-    height: 90vh;
-    width: 100vw;
-    color: black;
-    font-size: 5em;
-	text-align: center;
 }
