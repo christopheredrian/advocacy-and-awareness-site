@@ -87,6 +87,7 @@ footer {
     font-size: 5em;
 	text-align: center;
 }
+
 /**************methaphetamine.html******************/
 
 /**Banner**/
@@ -94,6 +95,13 @@ footer {
 .methaphetamine-background{
 	padding-top: 15vh;
     background: black url(images/meth.jpg) no-repeat fixed center;
+=======
+/************** tobacco.html *****************/
+
+.tobacco-background{
+	padding-top: 15vh;
+    background: black url(images/tobacco.jpg) no-repeat fixed center;
+
     background-size: cover;
     height: 90vh;
     width: 100vw;
@@ -101,6 +109,7 @@ footer {
     font-size: 5em;
 	text-align: center;
 }
+
 
 /**************heroin.html******************/
 
@@ -116,3 +125,32 @@ footer {
     font-size: 5em;
 	text-align: center;
 }
+=======
+.background{
+	text-align: justify;
+}
+
+.risks{
+	float: right;
+	width: 20%;
+	text-align: justify;
+}
+
+.reasons{
+	float: right;
+	width: 20%;
+	text-align: justify;
+}
+.trivias{
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+    background: black url(images/trivias.jpeg) no-repeat fixed center;
+    background-size: cover;
+    color: black;
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+>>>>>>> 53663c94cbf35fd5b7f02631e53db721fbc90605
