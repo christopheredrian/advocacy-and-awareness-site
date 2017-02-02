@@ -124,10 +124,10 @@ footer {
 
 .heroin-background{
 	padding-top: 15vh;
-    background: black url(images/heroin.jpg) no-repeat fixed center;
+    background: black url(images/heroin-powder.jpg) no-repeat fixed center;
     background-size: cover;
-    height: 90vh;
-    width: 100vw;
+    height: 50vh;
+    width: 50vw;
     color: black;
     font-size: 5em;
 	text-align: center;
