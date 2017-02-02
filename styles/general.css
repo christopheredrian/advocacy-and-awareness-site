@@ -21,15 +21,27 @@ footer {
     padding: 3vh 0;
     color: white;
 }
+
+
 /* Typography */
-*{
+
+* {
     line-height: 1.5em;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     border-bottom: 0.7px solid lightgray;
 }
 
+
 /* Common to banners */
+
+
 /*div[class*="-banner"],*/
 
 div[class*="-background"] {
@@ -217,6 +229,7 @@ div[class*="-background"] {
 .methamphetamine-background {
     background: black url(images/meth.jpg) no-repeat fixed center;
 }
+
 
 /************** tobacco.html *****************/
 

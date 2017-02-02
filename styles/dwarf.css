@@ -195,15 +195,14 @@
         font-size: 1.3em;
         margin-left: 5.6%;
         position: absolute;
-        left: 0;
-        top: -10px;
+        left: -15px;
+        top: -5px;
     }
-
-    nav .brand img{
-        height: 42px;
-        width: 42px;
+    
+    nav .brand img {
+        height: 40px;
+        width: 100px;
     }
-
     /********************************************/
     /************* TABLES ***********************/
     /********************************************/
@@ -330,24 +329,25 @@
             width: 25px;
             height: 25px;
         }
-
-        .nav li a , .nav li{
+        .nav li a,
+        .nav li {
             /*background: blue;*/
             /*position: absolute;*/
-            width: 70px; 
+            width: 70px;
             font-size: 1em;
         }
-        .nav li a:hover, .nav li:hover{
+        .nav li a:hover,
+        .nav li:hover {
             background: none;
             font-size: 1.1em;
         }
-        nav .brand{
+        nav .brand {
             margin: 0;
             padding: 0;
             position: absolute;
             left: 0;
         }
-        nav .home{
+        nav .home {
             display: none;
         }
     }
@@ -357,11 +357,10 @@
             display: none;
         }
     }
-
     /* Block quote */
-
-    blockquote{
-        padding: 5%; 
+    
+    blockquote {
+        padding: 5%;
         margin: 5%;
         font-size: 1.1em;
         border-top: 1px solid lightgrey;
