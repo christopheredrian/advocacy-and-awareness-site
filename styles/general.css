@@ -44,6 +44,89 @@ footer {
     border: none;
 }
 
+/*********** drugs.html ******************/
+
+.tobacco-banner{
+    border: none;
+    padding-top: 15vh;
+    background: black url('images/tobacco.jpg') no-repeat fixed center;
+    background-size: cover;
+    height: 50vh;
+    width: 50vw;
+    color: black;
+    font-size: 3em;
+	position: static;
+}
+.tobacco-banner blockquote{
+	 background: rgba(255, 255, 255, 0.6);
+    border: none;
+}
+.alcohol-banner{
+    border: none;
+    padding-top: 15vh;
+    background: black url('images/alcohol-cover.jpeg') no-repeat fixed center;
+    background-size: cover;
+    height: 50vh;
+    width: 50vw;
+    color: black;
+    font-size: 3em;
+	position: static;
+}
+
+.alcohol-banner blockquote{
+	 background: rgba(255, 255, 255, 0.6);
+    border: none;
+}
+.heroin-banner{
+    border: none;
+    padding-top: 15vh;
+    background: black url('images/heroin-powder.jpg') no-repeat fixed center;
+    background-size: cover;
+    height: 50vh;
+    width: 50vw;
+    color: black;
+    font-size: 3em;
+	position: static;
+}
+
+.heroin-banner blockquote{
+	 background: rgba(255, 255, 255, 0.6);
+    border: none;
+}
+.marijuana-banner{
+    border: none;
+    padding-top: 15vh;
+    background: black url('images/marijuana.png') no-repeat fixed center;
+    background-size: cover;
+    height: 50vh;
+    width: 50vw;
+    color: black;
+    font-size: 3em;
+	position: static
+}
+
+.marijuana-banner blockquote{
+	 background: rgba(255, 255, 255, 0.6);
+    border: none;
+}
+.methamphetamine-banner{
+    border: none;
+    padding-top: 10vh;
+    background: black url('images/meth.jpg') no-repeat fixed center;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    color: black;
+    font-size: 3em;
+	position: static:
+}
+
+.methamphetamine-banner blockquote{
+	 background: rgba(255, 255, 255, 0.6);
+    border: none;
+}
+
+
 /*************marijuana.html**************/
 
 /*Float image*/
@@ -108,29 +191,17 @@ footer {
 .tobacco-background{
 	padding-top: 15vh;
     background: black url(images/tobacco.jpg) no-repeat fixed center;
-
     background-size: cover;
     height: 90vh;
     width: 100vw;
     color: black;
     font-size: 5em;
-	text-align: center;
+	text-align: center
 }
 
-
-/**************heroin.html******************/
-
-/**Banner**/
-
-.heroin-background{
-	padding-top: 15vh;
-    background: black url(images/heroin-powder.jpg) no-repeat fixed center;
-    background-size: cover;
-    height: 90vh;
-    width: 100vw;
-    color: black;
-    font-size: 5em;
-	text-align: center;
+.tobacco-background blockquote{
+	background: rgba(255, 255, 255, 0.6);
+    border: none;
 }
 
 .background{
@@ -146,7 +217,7 @@ footer {
 .reasons{
 	float: right;
 	width: 20%;
-	text-align: justify;
+	text-align: center;
 }
 .trivias{
 	padding-top: 10vh;
@@ -159,5 +230,22 @@ footer {
 	font-size: 1.5em;
 	text-align: justify;
 }
+.trivias blockquote{
+	background: rgba(255, 255, 255, 0.6);
+    border: none;
+}
 
+/**************heroin.html******************/
 
+/**Banner**/
+
+.heroin-background{
+	padding-top: 15vh;
+    background: black url(images/heroin-powder.jpg) no-repeat fixed center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    color: black;
+    font-size: 5em;
+	text-align: center;
+}
