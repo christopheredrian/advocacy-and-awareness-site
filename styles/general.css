@@ -87,3 +87,32 @@ footer {
     font-size: 5em;
 	text-align: center;
 }
+/**************methaphetamine.html******************/
+
+/**Banner**/
+
+.methaphetamine-background{
+	padding-top: 15vh;
+    background: black url(images/meth.jpg) no-repeat fixed center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    color: black;
+    font-size: 5em;
+	text-align: center;
+}
+
+/**************heroin.html******************/
+
+/**Banner**/
+
+.heroin-background{
+	padding-top: 15vh;
+    background: black url(images/heroin.jpg) no-repeat fixed center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    color: black;
+    font-size: 5em;
+	text-align: center;
+}
