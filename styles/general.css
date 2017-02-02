@@ -95,7 +95,14 @@ footer {
 .methaphetamine-background{
 	padding-top: 15vh;
     background: black url(images/meth.jpg) no-repeat fixed center;
-=======
+	background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    color: black;
+    font-size: 5em;
+	text-align: center;
+}
+
 /************** tobacco.html *****************/
 
 .tobacco-background{
@@ -125,7 +132,7 @@ footer {
     font-size: 5em;
 	text-align: center;
 }
-=======
+
 .background{
 	text-align: justify;
 }
@@ -153,4 +160,4 @@ footer {
 	text-align: justify;
 }
 
->>>>>>> 53663c94cbf35fd5b7f02631e53db721fbc90605
+
