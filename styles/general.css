@@ -284,3 +284,37 @@ div[class*="-background"] {
 .heroin-background {
     background: black url(images/heroin-powder.jpg) no-repeat fixed center;
 }
+
+/************* contact.html ***********/
+
+.contact-banner {  
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    background: black url(images/leaf.jpg) no-repeat fixed center;
+    background-size: cover;
+    color: black;
+    font-size: 5.5em;
+    text-align: justify;
+}
+.contact-banner blockquote {
+    background: rgba(200, 500, 200, 0.6);
+    border: none;
+	font-family: "Courier New", Courier, monospace;
+	font-style: italic;
+}
+
+.box {
+    margin-bottom: 2em;
+	text-shadow: 1px 1px #ccc;
+	background: #EDF7DC;
+	padding: 1em 1em 1em 2em;
+	color: #000;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border: 3px 3px 3px 3px; 
+	-moz-box-shadow: rgba(0, 0, 0, 0.5)  0px 3px 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;	
+}
