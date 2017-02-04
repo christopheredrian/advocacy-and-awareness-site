@@ -156,11 +156,10 @@ div[class*="-background"] {
 /**Banner**/
 
 .methamphetamine-background {
-    background: rgba(0, 0, 0, 0.2) url(images/meth-formula.png) no-repeat fixed center;
+    background: url(images/meth-formula.png) no-repeat fixed center;
 }
 .methamphetamine-background blockquote {
-    background: rgba(0, 0, 0, 0.85);
-    color: white;
+    background: rgba(255, 255, 255, 0.6);
     border: none;
 }
 
@@ -180,18 +179,17 @@ div[class*="-background"] {
     text-align: justify;
 }
 
-.risks {
-    float: right;
-    width: 20%;
-    text-align: justify;
+.risks img{
+	float: right;
+	height: 425px;
+    width: 350px;
 }
-
-.reasons {
-    float: right;
-    width: 20%;
-    text-align: center;
+.reasons img{
+	float: left;
+	height: 465px;
+    width: 200px;
 }
-
+	
 .trivias {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -244,7 +242,22 @@ div[class*="-background"] {
     font-family: "Courier New", Courier, monospace;
     font-style: italic;
 }
-
+.marquee {
+ -moz-transform:translateX(-100%);
+ -webkit-transform:translateX(-100%);	
+ transform:translateX(-100%);
+ -moz-animation: move 15s linear infinite;
+ -webkit-animation: move 15s linear infinite;
+ animation: move 8s linear infinite;
+}
+@-moz-keyframes move {
+ 0%   { -moz-transform: translateX(-100%); }
+ 100% { -moz-transform: translateX(100%); }
+}
+@-webkit-keyframes move {
+ 0%   { -webkit-transform: translateX(-100%); }
+ 100% { -webkit-transform: translateX(100%); }
+}
 .box {
     margin-bottom: 2em;
     text-shadow: 1px 1px #ccc;
