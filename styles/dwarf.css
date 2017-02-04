@@ -5,6 +5,7 @@
     body {
         margin: 0;
     }
+
     /********************************************/
     /******************* Grid *******************/
     /********************************************/
@@ -300,7 +301,7 @@
             font-size: 0.97em;
         }
         .img-responsive {
-            width: 40%;
+            width: 100%;
         }
         .container {
             width: 90%;
@@ -334,8 +335,11 @@
             /*background: blue;*/
             /*position: absolute;*/
             width: 70px;
-            font-size: 1em;
+            width: 17vw;
+            font-size: 12px;
+            margin: 0;
         }
+        
         .nav li a:hover,
         .nav li:hover {
             background: none;
@@ -347,21 +351,18 @@
             position: absolute;
             left: 0;
         }
-        nav .home {
-            display: none;
-        }
-    }
-    
-    @media only screen and (max-width: 1000px) {
         .hide-small {
             display: none;
         }
     }
+    
+
     /* Block quote */
     
     blockquote {
         padding: 5%;
         margin: 5%;
         font-size: 1.1em;
+        font-size: 6vh;
         border-top: 1px solid lightgrey;
     }
