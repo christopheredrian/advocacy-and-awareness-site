@@ -156,10 +156,11 @@ div[class*="-background"] {
 /**Banner**/
 
 .methamphetamine-background {
-    background: url(images/meth-formula.png) no-repeat fixed center;
+    background: rgba(0, 0, 0, 0.2) url(images/meth-formula.png) no-repeat fixed center;
 }
 .methamphetamine-background blockquote {
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
     border: none;
 }
 
