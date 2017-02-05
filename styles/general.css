@@ -66,7 +66,7 @@ div[class*="-background"] {
 /* Banner */
 
 .home-banner {
-    background: black url('images/cover.jpg') no-repeat fixed center;
+    background: black url('background/cover.jpg') no-repeat fixed center;
     background-size: cover;
     /* TODO: Remove later */
     border: none;
@@ -123,7 +123,7 @@ div[class*="-background"] {
 /***Banner***/
 
 .marijuana-background {
-    background: black url(images/marijuana.png) no-repeat fixed center;
+    background: black url('background/marijuana.png') no-repeat fixed center;
     height: 90vh;
     font-size: 5em;
     text-align: center;
@@ -141,7 +141,7 @@ div[class*="-background"] {
 /**Banner**/
 
 .alcohol-background {
-    background: black url(images/alcohol-cover.jpeg) no-repeat fixed center;
+    background: black url('background/alcohol-cover.jpeg') no-repeat fixed center;
 }
 
 .alcohol-background blockquote {
@@ -156,7 +156,7 @@ div[class*="-background"] {
 /**Banner**/
 
 .methamphetamine-background {
-    background: rgba(0, 0, 0, 0.2) url(images/meth-formula.png) no-repeat fixed center;
+    background: rgba(0, 0, 0, 0.2) url('background/meth-formula.png') no-repeat fixed center;
 }
 .methamphetamine-background blockquote {
     background: rgba(0, 0, 0, 0.85);
@@ -168,7 +168,7 @@ div[class*="-background"] {
 /************** tobacco.html *****************/
 
 .tobacco-background {
-    background: black url(images/tobacco.jpg) no-repeat fixed center;
+    background: black url('background/tobacco.jpg') no-repeat fixed center;
 }
 
 .tobacco-background blockquote {
@@ -196,7 +196,7 @@ div[class*="-background"] {
     padding-bottom: 10vh;
     padding-left: 5vh;
     padding-right: 5vh;
-    background: black url(images/trivias.jpeg) no-repeat fixed center;
+    background: black url('background/trivias.jpeg') no-repeat fixed center;
     background-size: cover;
     color: black;
     font-size: 1.5em;
@@ -215,7 +215,7 @@ div[class*="-background"] {
 /**Banner**/
 
 .heroin-background {
-    background: black url(images/heroin-powder.jpg) no-repeat fixed center;
+    background: black url('background/heroin-powder.jpg') no-repeat fixed center;
 }
 .heroin-background blockquote {
     background: rgba(255, 255, 255, 0.6);
@@ -230,7 +230,7 @@ div[class*="-background"] {
     padding-bottom: 0.5vh;
     padding-left: 0.5vh;
     padding-right: 0.5vh;
-    background: black url(images/leaf.jpg) no-repeat fixed center;
+    background: black url('background/leaf.jpg') no-repeat fixed center;
     background-size: cover;
     color: black;
     font-size: 5.5em;
