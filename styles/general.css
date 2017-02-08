@@ -108,6 +108,8 @@ div[class*="-background"] {
 /*Float image*/
 
 .background-floated {
+    /*TODO: fix thursday */
+    margin: 5%;
     float: left;
     width: 20%;
     text-align: center;
@@ -182,16 +184,18 @@ div[class*="-background"] {
 
 .risks img{
 	float: right;
-	height: 425px;
-    width: 350px;
+	height: 30%;
+    width: 30%;
 }
 .reasons img{
+    margin: 5% 4%;
 	float: left;
-	height: 465px;
-    width: 200px;
+	height: 30%;
+    width: 30%;
 }
 	
 .trivias {
+    margin-top: 5%;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 5vh;
@@ -199,13 +203,14 @@ div[class*="-background"] {
     background: black url('background/trivias.jpeg') no-repeat fixed center;
     background-size: cover;
     color: black;
-    font-size: 1.5em;
     text-align: justify;
 }
 
 .trivias blockquote {
     background: rgba(255, 255, 255, 0.6);
     border: none;
+    font-size: 3vh !important;
+    
 }
 
 
