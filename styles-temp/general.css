@@ -1,0 +1,279 @@
+/*************** This file will contain all custom styles for site ***************************/
+
+
+/* Commons */
+
+cite a {
+    text-decoration: none;
+}
+
+*{
+    word-wrap: break-word;
+}
+/*************** Common to all files ***************************/
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background: #333;
+    margin: 8% 0 0 0;
+    padding-top: 5%;
+    padding: 3vh 0;
+    color: white;
+    position: static;
+    bottom: 0;
+}
+
+
+/* Typography */
+
+* {
+    line-height: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    border-bottom: 0.7px solid lightgray;
+}
+
+
+/* Common to banners */
+
+
+/*div[class*="-banner"],*/
+
+div[class*="-background"] {
+    background-size: cover;
+    border: none;
+    padding-top: 15vh;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 5em;
+    text-align: center;
+}
+
+
+/*************** index.html ***************************/
+
+
+/* Banner */
+
+.home-banner {
+    background: black url('background/cover.jpg') no-repeat fixed center;
+    background-size: cover;
+    /* TODO: Remove later */
+    border: none;
+    padding-top: 15vh;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 3em;
+}
+
+.home-banner cite a {
+    color: black;
+    /*text-decoration: none;*/
+    font-size: 0.7em;
+}
+
+.home-banner blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+}
+
+
+/*********** drugs.html ******************/
+
+#drugs-page a {
+    text-decoration: none;
+}
+
+#drugs-page section a:hover {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+/*************marijuana.html**************/
+
+
+/*Float image*/
+
+.background-floated {
+    /*TODO: fix thursday */
+    margin: 5%;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.risks-floated {
+    float: right;
+    width: 20%;
+    text-align: center;
+}
+
+
+/***Banner***/
+
+.marijuana-background {
+    background: black url('background/marijuana.png') no-repeat fixed center;
+    height: 90vh;
+    font-size: 5em;
+    text-align: center;
+}
+
+.marijuana-background blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+}
+
+
+/**************alcohol.html******************/
+
+
+/**Banner**/
+
+.alcohol-background {
+    background: black url('background/alcohol-cover.jpeg') no-repeat fixed center;
+}
+
+.alcohol-background blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+}
+
+
+/**************methamphetamine.html******************/
+
+
+/**Banner**/
+
+.methamphetamine-background {
+    background: rgba(0, 0, 0, 0.2) url('background/meth-formula.png') no-repeat fixed center;
+}
+.methamphetamine-background blockquote {
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    border: none;
+}
+
+
+/************** tobacco.html *****************/
+
+.tobacco-background {
+    background: black url('background/tobacco.jpg') no-repeat fixed center;
+}
+
+.tobacco-background blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+}
+
+.background {
+    text-align: justify;
+}
+
+.risks img{
+	float: right;
+	height: 30%;
+    width: 30%;
+}
+.reasons img{
+    margin: 5% 4%;
+	float: left;
+	height: 30%;
+    width: 30%;
+}
+	
+.trivias {
+    margin-top: 5%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    background: black url('background/trivias.jpeg') no-repeat fixed center;
+    background-size: cover;
+    color: black;
+    text-align: justify;
+}
+
+.trivias blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+    font-size: 3vh !important;
+    
+}
+
+
+/**************heroin.html******************/
+
+
+/**Banner**/
+
+.heroin-background {
+    background: black url('background/heroin-powder.jpg') no-repeat fixed center;
+}
+.heroin-background blockquote {
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+}
+
+
+/************* contact.html ***********/
+
+.contact-banner {
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    background: black url('background/leaf.jpg') no-repeat fixed center;
+    background-size: cover;
+    color: black;
+    font-size: 5.5em;
+    text-align: justify;
+}
+
+.contact-banner blockquote {
+    background: rgba(200, 500, 200, 0.6);
+    border: none;
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+}
+.marquee {
+ -moz-transform:translateX(-100%);
+ -webkit-transform:translateX(-100%);	
+ transform:translateX(-100%);
+ -moz-animation: move 15s linear infinite;
+ -webkit-animation: move 15s linear infinite;
+ animation: move 8s linear infinite;
+}
+@-moz-keyframes move {
+ 0%   { -moz-transform: translateX(-100%); }
+ 100% { -moz-transform: translateX(100%); }
+}
+@-webkit-keyframes move {
+ 0%   { -webkit-transform: translateX(-100%); }
+ 100% { -webkit-transform: translateX(100%); }
+}
+.box {
+    margin-bottom: 2em;
+    text-shadow: 1px 1px #ccc;
+    background: #EDF7DC;
+    padding: 1em 1em 1em 2em;
+    color: #000;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border: 3px 3px 3px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
+}
