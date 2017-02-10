@@ -1,23 +1,58 @@
-.container, blockquote, footer{
-	padding-left: 20%;
-	margin: 0 100px;
-	width: 60%;
+.container, blockquote, footer, div[class*="-background"]{
+	margin-left: 20vw;
+	width: 70vw;
 }
 
-.container *{
-	/*width: 100%;*/
+
+blockquote{
+	/*width: 99vw;*/
+	margin: 0 17vw;
 }
 
-.nav li {
-        font-size: 1.1em;
-        float: left;
-        width: 100%;
+div[class*="-background"] {
+	/*float: left;*/
+	width: 100vw;
+	margin-left: 0;
 }
 
-.container .container, .container .row{
+div[class*="-background"] blockquote{
+	/*width: 0;*/
+	margin: 0 17vw;
+}
+blockquote.text-center{
+	/*float: left;*/
+	width: 10vw;
+	margin-left: 0;
+}
+
+blockquote.text-center{
 	width: 100%;
 }
 
+
+nav ul li:nth-child(5) {
+	display: none;
+}
+
+nav ul li:first-child {
+	margin-top: 10vh;
+}
+
+.nav li {
+	font-size: 1.3vw;
+	float: left;
+	width: 100%;
+}
+
+.container .container,
+.container .row {
+	width: 100%;
+}
+
+.brand a img {
+	width: 80%;
+	height: 100%;
+}
 
 
 /*first child   margin-top: 10%; */

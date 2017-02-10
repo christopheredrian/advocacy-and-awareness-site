@@ -28,7 +28,6 @@ div[class*="-background"] {
     border: none;
     padding-top: 15vh;
     height: 100vh;
-    width: 100vw;
     color: black;
     font-size: 3em;
 }
@@ -233,3 +232,32 @@ div[class*="-background"] {
     -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
 }
+body{
+	background: #2E8B57;
+  background: -moz-linear-gradient(#2E8B57, #0d2618);
+  background: -o-linear-gradient(#2E8B57, #0d2618);
+  background: -webkit-linear-gradient(#2E8B57, #0d2618);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+}
+ 
+.container{
+ background: #90EE90	;
+  background: -moz-linear-gradient(#90EE90, ##c6ebd6);
+  background: -o-linear-gradient(#90EE90, ##c6ebd6);
+  background: -webkit-linear-gradient(#90EE90, ##c6ebd6);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  border: 5px solid #3CB371	;
+  border-radius: 20px / 20px;
+}
+.container p, h1,h1,h3,li,article, .box{
+	color: 	#055A2E  ;
+	font-family: ‘Lucida Console’, Monaco, monospace;
+} 
+.img-responsive{
+	position: relative;
+}
+
