@@ -255,9 +255,8 @@ body{
 }
 .container p, h1,h1,h3,li,article, .box{
 	color: 	#055A2E  ;
-	font-family: ‘Lucida Console’, Monaco, monospace;
+	font-family: Tahoma, Geneva, sans-serif;
 } 
 .img-responsive{
 	position: relative;
 }
-
