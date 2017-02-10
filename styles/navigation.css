@@ -1,0 +1,23 @@
+.container, blockquote, footer{
+	padding-left: 20%;
+	margin: 0 100px;
+	width: 60%;
+}
+
+.container *{
+	/*width: 100%;*/
+}
+
+.nav li {
+        font-size: 1.1em;
+        float: left;
+        width: 100%;
+}
+
+.container .container, .container .row{
+	width: 100%;
+}
+
+
+
+/*first child   margin-top: 10%; */
