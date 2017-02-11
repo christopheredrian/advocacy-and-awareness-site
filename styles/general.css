@@ -16,6 +16,17 @@ div[class*="-background"] {
 }
 
 
+footer{
+	position: static;
+	display: inline-block;
+	bottom: 0;
+	background-color: seagreen;
+	background: linear-gradient(to bottom right, limegreen, seagreen);
+	width: 100%;
+	margin-top: 50px;
+}
+
+
 /*************** index.html ***************************/
 
 
