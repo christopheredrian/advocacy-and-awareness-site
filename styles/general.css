@@ -1,17 +1,16 @@
 /*************** This file will contain all custom styles for site ***************************/
 
-
 /* Commons */
 
 cite a {
     text-decoration: none;
 }
 
-*{
+* {
     word-wrap: break-word;
 }
-/*************** Common to all files ***************************/
 
+/*************** Common to all files ***************************/
 
 /* FOOTER */
 
@@ -25,7 +24,6 @@ footer {
     position: static;
     bottom: 0;
 }
-
 
 /* Typography */
 
@@ -42,9 +40,7 @@ h6 {
     border-bottom: 0.7px solid lightgray;
 }
 
-
 /* Common to banners */
-
 
 /*div[class*="-banner"],*/
 
@@ -59,9 +55,7 @@ div[class*="-background"] {
     text-align: center;
 }
 
-
 /*************** index.html ***************************/
-
 
 /* Banner */
 
@@ -73,7 +67,6 @@ div[class*="-background"] {
     padding-top: 15vh;
     height: 100vh;
     width: 100vw;
-    color: black;
     font-size: 3em;
 }
 
@@ -88,7 +81,6 @@ div[class*="-background"] {
     border: none;
 }
 
-
 /*********** drugs.html ******************/
 
 #drugs-page a {
@@ -96,14 +88,10 @@ div[class*="-background"] {
 }
 
 #drugs-page section a:hover {
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
 
-
 /*************marijuana.html**************/
-
 
 /*Float image*/
 
@@ -121,7 +109,6 @@ div[class*="-background"] {
     text-align: center;
 }
 
-
 /***Banner***/
 
 .marijuana-background {
@@ -136,9 +123,7 @@ div[class*="-background"] {
     border: none;
 }
 
-
 /**************alcohol.html******************/
-
 
 /**Banner**/
 
@@ -151,21 +136,19 @@ div[class*="-background"] {
     border: none;
 }
 
-
 /**************methamphetamine.html******************/
-
 
 /**Banner**/
 
 .methamphetamine-background {
     background: rgba(0, 0, 0, 0.2) url('background/meth-formula.png') no-repeat fixed center;
 }
+
 .methamphetamine-background blockquote {
     background: rgba(0, 0, 0, 0.85);
     color: white;
     border: none;
 }
-
 
 /************** tobacco.html *****************/
 
@@ -182,18 +165,19 @@ div[class*="-background"] {
     text-align: justify;
 }
 
-.risks img{
-	float: right;
-	height: 30%;
+.risks img {
+    float: right;
+    height: 30%;
     width: 30%;
 }
-.reasons img{
+
+.reasons img {
     margin: 5% 4%;
-	float: left;
-	height: 30%;
+    float: left;
+    height: 30%;
     width: 30%;
 }
-	
+
 .trivias {
     margin-top: 5%;
     padding-top: 10vh;
@@ -202,7 +186,6 @@ div[class*="-background"] {
     padding-right: 5vh;
     background: black url('background/trivias.jpeg') no-repeat fixed center;
     background-size: cover;
-    color: black;
     text-align: justify;
 }
 
@@ -210,23 +193,21 @@ div[class*="-background"] {
     background: rgba(255, 255, 255, 0.6);
     border: none;
     font-size: 3vh !important;
-    
+
 }
 
-
 /**************heroin.html******************/
-
 
 /**Banner**/
 
 .heroin-background {
     background: black url('background/heroin-powder.jpg') no-repeat fixed center;
 }
+
 .heroin-background blockquote {
     background: rgba(255, 255, 255, 0.6);
     border: none;
 }
-
 
 /************* contact.html ***********/
 
@@ -237,33 +218,41 @@ div[class*="-background"] {
     padding-right: 0.5vh;
     background: black url('background/leaf.jpg') no-repeat fixed center;
     background-size: cover;
-    color: black;
     font-size: 5.5em;
     text-align: justify;
 }
 
 .contact-banner blockquote {
-    background: rgba(200, 500, 200, 0.6);
+    background: rgba(200, 255, 200, 0.6);
     border: none;
     font-family: "Courier New", Courier, monospace;
     font-style: italic;
 }
+
 .marquee {
- -moz-transform:translateX(-100%);
- -webkit-transform:translateX(-100%);	
- transform:translateX(-100%);
- -moz-animation: move 15s linear infinite;
- -webkit-animation: move 15s linear infinite;
- animation: move 8s linear infinite;
+    transform: translateX(-100%);
+    animation: move 8s linear infinite;
+    transform: translateX(100%);
 }
-@-moz-keyframes move {
- 0%   { -moz-transform: translateX(-100%); }
- 100% { -moz-transform: translateX(100%); }
+
+@keyframes move {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
 }
-@-webkit-keyframes move {
- 0%   { -webkit-transform: translateX(-100%); }
- 100% { -webkit-transform: translateX(100%); }
+
+@keyframes move {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
 }
+
 .box {
     margin-bottom: 2em;
     text-shadow: 1px 1px #ccc;
@@ -271,9 +260,5 @@ div[class*="-background"] {
     padding: 1em 1em 1em 2em;
     color: #000;
     border-radius: 3px 3px 3px 3px;
-    -moz-border-radius: 3px 3px 3px 3px;
-    -webkit-border: 3px 3px 3px 3px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
 }
