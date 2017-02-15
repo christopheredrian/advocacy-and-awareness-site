@@ -161,7 +161,7 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #333;
+        background-color: #2f4f4f;
     }
     
     .nav li {
@@ -183,7 +183,7 @@
     }
     
     .nav li a:hover {
-        background-color: #111;
+        background-color: #708090;
     }
     
     nav ul.nav-fixed {
