@@ -37,7 +37,6 @@ footer {
     border: none;
     padding-top: 15vh;
     height: 100vh;
-    color: black;
     font-size: 3em;
 }
 
@@ -60,8 +59,6 @@ footer {
 }
 
 #drugs-page section a:hover {
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
 
@@ -169,7 +166,6 @@ footer {
     padding-right: 5vh;
     background: black url('background/trivias.jpeg') no-repeat fixed center;
     background-size: cover;
-    color: black;
     text-align: justify;
 }
 
@@ -207,42 +203,37 @@ footer {
     padding-right: 0.5vh;
     background: black url('background/leaf.jpg') no-repeat fixed center;
     background-size: cover;
-    color: black;
     font-size: 5.5em;
     text-align: justify;
 }
 
 .contact-banner blockquote {
-    background: rgba(200, 500, 200, 0.6);
+    background: rgba(200, 255, 200, 0.6);
     border: none;
     font-family: "Courier New", Courier, monospace;
     font-style: italic;
 }
 
 .marquee {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
-    -moz-animation: move 15s linear infinite;
-    -webkit-animation: move 15s linear infinite;
-    animation: move 8s linear infinite;
+    animation: move 10s linear infinite;
 }
 
-@-moz-keyframes move {
+@keyframes move {
     0% {
-        -moz-transform: translateX(-100%);
+        transform: translateX(-100%);
     }
     100% {
-        -moz-transform: translateX(100%);
+        transform: translateX(100%);
     }
 }
 
-@-webkit-keyframes move {
+@keyframes move {
     0% {
-        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
     }
     100% {
-        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
     }
 }
 
@@ -253,26 +244,18 @@ footer {
     padding: 1em 1em 1em 2em;
     color: #000;
     border-radius: 3px 3px 3px 3px;
-    -moz-border-radius: 3px 3px 3px 3px;
-    -webkit-border: 3px 3px 3px 3px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
+    border: 3px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
 }
 
 body {
     background: #2E8B57;
-    background: -moz-linear-gradient(#2E8B57, #0d2618);
-    background: -o-linear-gradient(#2E8B57, #0d2618);
-    background: -webkit-linear-gradient(#2E8B57, #0d2618);
-    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    background: linear-gradient(#2E8B57, #0d2618);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
 }
 
 .container {
     background: #90EE90;
-    background: linear-gradient(#90EE90);
     padding-left: 3%;
     padding-right: 3%;
     position: relative;
@@ -302,4 +285,8 @@ article,
     margin: 0;
     border: 0;
     box-shadow: none;
+}
+
+*{
+    overflow-wrap: break-word; 
 }
