@@ -1,4 +1,3 @@
-
 /* Common to banners */
 
 
@@ -15,15 +14,14 @@ div[class*="-background"] {
     text-align: center;
 }
 
-
-footer{
-	position: static;
-	display: inline-block;
-	bottom: 0;
-	background-color: seagreen;
-	background: linear-gradient(to bottom right, limegreen, seagreen);
-	width: 100%;
-	margin-top: 50px;
+footer {
+    position: static;
+    display: inline-block;
+    bottom: 0;
+    background-color: seagreen;
+    background: linear-gradient(to bottom right, limegreen, seagreen);
+    width: 100%;
+    margin-top: 50px;
 }
 
 
@@ -126,6 +124,7 @@ footer{
 .methamphetamine-background {
     background: rgba(0, 0, 0, 0.2) url('background/meth-formula.png') no-repeat fixed center;
 }
+
 .methamphetamine-background blockquote {
     background: rgba(0, 0, 0, 0.85);
     color: white;
@@ -148,14 +147,15 @@ footer{
     text-align: justify;
 }
 
-.risks img{
+.risks img {
     float: right;
     height: 30%;
     width: 30%;
 }
-.reasons img{
+
+.reasons img {
     margin-bottom: 15%;
-	margin-right: 3%;
+    margin-right: 3%;
     float: left;
     height: 20%;
     width: 30%;
@@ -176,11 +176,10 @@ footer{
 .trivias blockquote {
     background: rgba(255, 255, 255, 0.6);
     margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	border: none;
+    margin-right: auto;
+    position: relative;
+    border: none;
     font-size: 3vh !important;
-    
 }
 
 
@@ -192,6 +191,7 @@ footer{
 .heroin-background {
     background: black url('background/heroin-powder.jpg') no-repeat fixed center;
 }
+
 .heroin-background blockquote {
     background: rgba(255, 255, 255, 0.6);
     border: none;
@@ -218,22 +218,34 @@ footer{
     font-family: "Courier New", Courier, monospace;
     font-style: italic;
 }
+
 .marquee {
- -moz-transform:translateX(-100%);
- -webkit-transform:translateX(-100%);   
- transform:translateX(-100%);
- -moz-animation: move 15s linear infinite;
- -webkit-animation: move 15s linear infinite;
- animation: move 8s linear infinite;
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -moz-animation: move 15s linear infinite;
+    -webkit-animation: move 15s linear infinite;
+    animation: move 8s linear infinite;
 }
+
 @-moz-keyframes move {
- 0%   { -moz-transform: translateX(-100%); }
- 100% { -moz-transform: translateX(100%); }
+    0% {
+        -moz-transform: translateX(-100%);
+    }
+    100% {
+        -moz-transform: translateX(100%);
+    }
 }
+
 @-webkit-keyframes move {
- 0%   { -webkit-transform: translateX(-100%); }
- 100% { -webkit-transform: translateX(100%); }
+    0% {
+        -webkit-transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateX(100%);
+    }
 }
+
 .box {
     margin-bottom: 2em;
     text-shadow: 1px 1px #ccc;
@@ -247,34 +259,47 @@ footer{
     -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
 }
-body{
-	background: #2E8B57;
-  background: -moz-linear-gradient(#2E8B57, #0d2618);
-  background: -o-linear-gradient(#2E8B57, #0d2618);
-  background: -webkit-linear-gradient(#2E8B57, #0d2618);
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+
+body {
+    background: #2E8B57;
+    background: -moz-linear-gradient(#2E8B57, #0d2618);
+    background: -o-linear-gradient(#2E8B57, #0d2618);
+    background: -webkit-linear-gradient(#2E8B57, #0d2618);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
 }
- 
-.container{
-  background: #90EE90;
-  background: -moz-linear-gradient(#90EE90, ##c6ebd6);
-  background: -o-linear-gradient(#90EE90, ##c6ebd6);
-  background: -webkit-linear-gradient(#90EE90, ##c6ebd6);
-  padding-left: 3%;
-  padding-right: 3%;
-  position: relative;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  border: 5px solid #3CB371	;
-  border-radius: 20px / 20px;
+
+.container {
+    background: #90EE90;
+    background: linear-gradient(#90EE90);
+    padding-left: 3%;
+    padding-right: 3%;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    border: 5px solid #3CB371;
+    border-radius: 20px 20px;
 }
-.container p, h1,h1,h3,li,article, .box{
-	color: 	#055A2E  ;
-	font-family: Tahoma, Geneva, sans-serif;
-} 
-.img-responsive{
-	position: relative;
+
+.container p,
+h1,
+h1,
+h3,
+li,
+article,
+.box {
+    color: #055A2E;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.img-responsive {
+    position: relative;
+}
+
+
+/* Fix for heroin page */
+.container .container{
+    margin: 0;
+    border: 0;
+    box-shadow: none;
 }
