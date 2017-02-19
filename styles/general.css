@@ -275,6 +275,10 @@ article,
     font-family: Tahoma, Geneva, sans-serif;
 }
 
+section {
+    padding: 5%;
+}
+
 .img-responsive {
     position: relative;
 }
@@ -289,4 +293,5 @@ article,
 
 *{
     overflow-wrap: break-word; 
+    letter-spacing: 0.8px;
 }
